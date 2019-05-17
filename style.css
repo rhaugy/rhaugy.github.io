@@ -1,21 +1,21 @@
 body {
-  background: #1e2440;
-  color: #f2efe2;
+  background: #9932CC;
+  color: #ffffff;;
   font-size: 16px;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Times New Roman', serif;
+  font-family: 'Times New Roman', serif;
 }
 
 .container {
-  position: relative;
-  border: 1px solid #f2efe2;
+  position: absolute;right:40px; left:40px; top:100px;
+  border: 1px solid #ffffff;
   width: 40vw;
   max-width: 60vw;
   margin: 0 auto;
   border-radius: 0.1rem;
-  background: #f2efe2;
+  background: #ffffff;
   padding: 0.2rem 1rem;
-  color: #1e2440;
+  color: :#ffffff;
   overflow: scroll;
   margin-top: 10vh;
 }
@@ -33,10 +33,16 @@ body {
   border-bottom: 1px dotted black;
   margin: 0px !important;
 }
+  .header {
+  padding: 60px;
+  text-align: center;
+  background: #9932CC;
+  color: white;
+  font-size: 20px;
 
 .fa {
   color: white;
-  background: #1e2440;
+  background: #9932CC;;
   border-radius: 50%;
   cursor: pointer;
   margin-top: 1rem;
